@@ -9,8 +9,8 @@ import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
-import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 /**
  *
@@ -40,7 +40,7 @@ public class M1Test {
     /**
      * Test of main method, of class M1.
      */
-    @org.junit.Test
+    @Test
     public void testMain() {
         System.out.println("main");
         String[] args = null;
